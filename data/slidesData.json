@@ -1,26 +1,106 @@
 [
   {
-    "title": "Per aliquam est tristique luctus himenaeos augue",
-    "text_left": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_left": "/img1.png",
-    "text_right": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "Laravel",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "logo.png",
+    "text_left": "<p>- What is Laravel</p><p>- Requirements / Setup</p><p>- Artisan</p><p>- Migrations</p><p>- Testing</p><p>- Routes folder</p><p>- Database folder</p><p>- Config folder</p><p>- App Config folder</p><p>- App Http folder</p><p>- App Models folder</p><p>- App Providers folder</p><p>- Packages</p><p><br></p><p><br></p><p><a href=\"https://www.youtube.com/watch?v=rIfdg_Ot-LI&amp;ab_channel=Fireship\" rel=\"noopener noreferrer\" target=\"_blank\">Fireship</a></p>",
+    "text_right": ""
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": "/img1.png",
-    "text_right": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "What is Laravel",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "framework.png",
+    "text_left": "<p>Laravel is a popular open-source PHP web framework known for its elegance, simplicity, and expressive syntax. It provides developers with tools and features to build robust, scalable, and maintainable web applications quickly and efficiently. With built-in functionalities like routing, authentication, caching, and database management, Laravel simplifies the development process while promoting best practices and adherence to modern web development standards.</p>",
+    "text_right": ""
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": null,
-    "text_right": null,
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "Requirements / Setup",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "docs.png",
+    "text_left": "<p>There are several methods to run or install a Laravel application locally. The easiest approach is to install PHP and Composer on your laptop. For Mac users, Valet is a convenient option, providing easy and fast hosting for Laravel apps. Ensure you have the latest versions of Composer and PHP installed to set up Laravel.</p><p>Alternatively, you can utilize a Docker container for running Laravel applications.</p><p><br></p><p>After setting up your local environment using PHP, Composer, Valet (for Mac users), or Docker, you can proceed to download and run Laravel either by cloning its repository or installing it with Composer.</p><p>If you choose to clone the repository, ensure you create a <code style=\"color: var(--tw-prose-code);\">.env</code> file and fill in the necessary environment variables manually. This step is essential for configuring Laravel properly. Alternatively, if you install Laravel using Composer, the <code style=\"color: var(--tw-prose-code);\">.env</code> file will be generated automatically with default settings.</p><p>Once Laravel is set up and configured, you're ready to start developing your application.</p><p><br></p><p><a href=\"https://laravel.com/docs/10.x\" rel=\"noopener noreferrer\" target=\"_blank\">Laravel</a></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Artisan",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "artisan.png",
+    "text_left": "<p>Artisan is a command-line interface (CLI) included with Laravel, the popular PHP web application framework. It provides a range of commands to help developers perform various tasks related to Laravel application development. Artisan simplifies common development tasks by automating processes that would otherwise require manual intervention or custom scripts.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Migrations",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "migrations.png",
+    "text_left": "<p>Database migration can be effortlessly handled with Artisan. For instance, running the command <code style=\"color: var(--tw-prose-code);\">php artisan make:model -m User</code> generates a migration file and a corresponding model. Laravel inherently supports Object-Relational Mapping (ORM), simplifying database operations.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Testing",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "testing.png",
+    "text_left": "<p>Laravel comes pre-equipped with PHPUnit, making it seamless to create unit tests. This built-in functionality allows developers to efficiently write and execute unit tests for their applications.</p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Routes folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "routes.png",
+    "text_left": "<p><strong>api.php</strong> </p><p>This file in Laravel is dedicated to defining routes for API endpoints, facilitating the creation of RESTful APIs within the application. </p><p><strong>channels.php </strong></p><p>Used for defining broadcast channels, it enables the configuration of real-time event broadcasting and channel authorization in Laravel applications. </p><p><strong>console.php</strong> </p><p>Responsible for registering Artisan commands, this file allows developers to define custom command-line tasks and interactions within the Laravel console.</p><p><strong>web.php</strong> </p><p>Handles routes for web-based interactions, such as rendering views and processing form submissions, facilitating the creation of web pages and user interfaces in Laravel applications.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Database folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "database.png",
+    "text_left": "<p><strong>Factories</strong></p><p>Generate dummy data for testing or seeding the database with initial values, aiding in efficient testing and database population. </p><p><strong>Migrations</strong></p><p>Version control for database schema, enabling systematic changes to database structure using PHP code, ensuring consistency across environments. </p><p><strong>Seeders</strong></p><p>Populate the database with test or initial data, facilitating quick insertion of predefined data for development and testing purposes.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Config folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "config.png",
+    "text_left": "<p><strong>app.php</strong></p><p> Contains general application settings such as the application name, environment configuration, timezone, and service providers. </p><p><strong>filesystems.php</strong></p><p>Configures the filesystems used in the application, including local, Amazon S3, Rackspace, and more. auth.php: Manages authentication configuration, including the authentication guards and providers used for user authentication. </p><p><strong>cache.php</strong></p><p>Configures caching settings, including cache stores and cache drivers such as Redis, Memcached, and file caching. </p><p><strong>broadcasting.php</strong></p><p>Sets up broadcasting configuration for real-time event broadcasting using various drivers like Pusher, Redis, and more. </p><p><strong>database.php</strong></p><p>Configures database connections, including drivers like MySQL, PostgreSQL, SQLite, and settings for database connections. </p><p><strong>cors.php</strong></p><p>Configures Cross-Origin Resource Sharing (CORS) settings for handling requests from different origins. </p><p><strong>hashing.php</strong></p><p>Manages hashing settings and algorithms used for password hashing. </p><p><strong>logging.php</strong></p><p>Configures logging settings, including log channels and logging levels for different parts of the application. </p><p><strong>mail.php</strong></p><p>Sets up mail settings, including mail drivers like SMTP, Mailgun, Sendmail, and more. </p><p><strong>queue.php</strong></p><p>Configures queue connection settings, including drivers like Redis, Beanstalkd, Amazon SQS, and more. </p><p><br></p>",
+    "text_right": "<p><strong>sanctum.php</strong></p><p>Configuration file for Laravel Sanctum, which is used for API token authentication. </p><p><strong>services.php</strong></p><p>Configures third-party services such as OAuth providers, allowing integration with services like Google, Facebook, and more. </p><p><strong>session.php</strong></p><p>Manages session configuration, including session drivers and session lifetime. </p><p><strong>view.php</strong></p><p>Sets up view-related configurations, including the paths to view files, view cache settings, and view composers.</p>"
+  },
+  {
+    "title": "App Http folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "http.png",
+    "text_left": "<p><strong>Controllers Directory</strong></p><p>Contains PHP files housing controller classes responsible for handling HTTP requests and executing application logic. </p><p><strong>Middleware Directory</strong></p><p>Holds PHP files defining middleware classes, acting as intermediaries for request processing, enabling tasks like authentication and request/response manipulation. </p><p><strong>Kernel.php File</strong></p><p>Defines the application's HTTP kernel, centralizing request handling, middleware registration, and route configuration for efficient HTTP request processing.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "App Models folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "models.png",
+    "text_left": "<p>In Laravel, models are PHP classes representing database tables. They handle data manipulation, validation, and define relationships between tables. Models encapsulate business logic, simplifying CRUD operations and ensuring data integrity.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "App Providers folder",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "providers.png",
+    "text_left": "<p>In Laravel, providers serve as the bridge between the framework and various services, enabling dependency injection throughout the application. Here's a concise explanation: </p><p><strong>Providers</strong> </p><p>Laravel providers are PHP classes that register services with the application's service container. They define bindings between interfaces and concrete implementations, allowing the framework to resolve dependencies when needed. </p><p><strong>Service Injection</strong></p><p>Service injection, facilitated by providers, allows developers to inject dependencies into classes instead of manually instantiating them. This promotes code reusability, testability, and reduces coupling between components. </p><p><br></p><p>In summary, providers in Laravel facilitate service injection, enabling the framework to manage dependencies and resolve them automatically, leading to more modular and maintainable code.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Packages",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "packages.png",
+    "text_left": "<p>In Laravel, a package is a reusable piece of software that extends the framework's functionality. Integrated via Composer, packages offer additional features, integrations, and utilities, allowing developers to enhance their applications without reinventing the wheel.</p>",
+    "text_right": ""
   }
 ]
